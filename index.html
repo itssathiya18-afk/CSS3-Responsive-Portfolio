@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive personal portfolio showcasing skills, projects, and contact information.">
+  <title>My Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Portfolio home">Port<span>folio.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M A STUDENT DEVELOPER</p>
+        <h1>Building thoughtful <span>digital experiences.</span></h1>
+        <p class="hero-text">I enjoy turning ideas into clean, accessible, and responsive websites using modern web technologies.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View My Work</a>
+          <a class="button button-secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Open to learning and new opportunities</div>
+      </div>
+      <div class="hero-card" aria-label="Developer illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-window">
+          <div class="window-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <div class="code-lines">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent">name: <span class="code-green">'Your Name'</span>,</p>
+            <p class="indent">focus: <span class="code-green">'Web Design'</span>,</p>
+            <p class="indent">learning: <span class="code-green">'Every day'</span></p>
+            <p>};</p>
+            <p class="code-comment">// Keep creating ✨</p>
+          </div>
+        </div>
+        <div class="floating-badge">HTML · CSS · JavaScript</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious mind.<br><span>Creative builder.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm a computer science student interested in web development, accessible design, and solving real-world problems through technology.</p>
+          <p>This portfolio is a place to share what I'm learning, highlight projects, and keep improving one step at a time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span>skills</span></h2>
+        <p>Tools and concepts I'm developing through practice.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">01</div><h3>HTML5</h3><p>Semantic structure, accessible forms, and meaningful page content.</p></article>
+        <article class="skill-card"><div class="skill-icon">02</div><h3>CSS3</h3><p>Responsive layouts with Grid, Flexbox, variables, and transitions.</p></article>
+        <article class="skill-card"><div class="skill-icon">03</div><h3>JavaScript</h3><p>Learning DOM interaction and building useful browser experiences.</p></article>
+        <article class="skill-card"><div class="skill-icon">04</div><h3>Problem Solving</h3><p>Breaking tasks into small steps and improving through feedback.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Featured <span>projects</span></h2>
+          <p>A few project ideas that can be replaced with your completed work.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"><span>01 / WEB</span><div class="mini-window"><b></b><b></b><b></b><span></span><span></span><span></span></div></div>
+            <div class="project-info"><p class="project-type">FRONT-END</p><h3>Personal Portfolio</h3><p>A responsive portfolio built with semantic HTML and modern CSS layouts.</p><a href="#contact" class="text-link">Discuss project ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><span>02 / UI</span><div class="dashboard-shape"><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-info"><p class="project-type">UI DESIGN</p><h3>Dashboard Concept</h3><p>A clean dashboard concept focused on clear hierarchy and readable data.</p><a href="#contact" class="text-link">Discuss project ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three"><span>03 / IDEA</span><div class="circle-graphic"><b>+</b></div></div>
+            <div class="project-info"><p class="project-type">CONCEPT</p><h3>Everyday Helper</h3><p>A simple web app concept designed to make everyday tasks easier.</p><a href="#contact" class="text-link">Discuss project ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+          <h2>Let's create something <span>useful.</span></h2>
+          <p>Replace the sample details below with your own contact information before publishing.</p>
+        </div>
+        <a class="button button-light" href="mailto:your.email@example.com">Email Me ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Port<span>folio.</span></a>
+      <p>Designed with HTML5 & CSS3 · © 2026</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
